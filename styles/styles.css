@@ -97,7 +97,7 @@ ul {
 
 /* header and navbar */
 .top-header {
-    position: fixed;
+    position: relative;
     top: 0;
     left: 0;
     width: 100%;
@@ -134,4 +134,88 @@ ul {
 
 .menu-links a:hover {
     color: #4CAF50;
+}
+
+/* banner section */
+.banner {
+    position: relative;
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('../assets/hero-bg.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 80px;
+}
+
+.banner-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.banner-box {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    padding: 80px 0;
+}
+
+.access-tag {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background: #ffffff;
+    color: #22c55e;
+    padding: 8px 20px;
+    border-radius: 50px;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 40px;
+}
+
+.green-dot {
+    width: 8px;
+    height: 8px;
+    background-color: #22c55e;
+    border-radius: 50%;
+}
+
+.main-title {
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 32px;
+}
+
+.white-text {
+    color: #ffffff;
+}
+
+.green-text {
+    color: #22c55e;
+}
+
+.banner-text {
+    color: rgba(255, 255, 255, 0.85);
+    font-size: 18px;
+    max-width: 640px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+
+.banner-text + .banner-text {
+    margin-top: 4px;
+    margin-bottom: 48px;
+}
+
+.banner-btns {
+    display: flex;
+    gap: 16px;
+    justify-content: center;
 }
