@@ -8,3 +8,130 @@
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
 }
+body {
+    line-height: 1.6;
+    color: #1e3a5a;
+    background-color: #ffffff;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style: none;
+}
+
+
+/* wrapper */
+.wrapper {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 24px;
+}
+
+
+/* buttons */
+.button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 14px 28px;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+}
+
+.button:hover {
+    opacity: 0.9;
+}
+
+.green-btn {
+    background-color: #09943c;
+    color: #ffffff;
+    padding: 16px 28px;
+    font-size: 16px;
+}
+
+.outline-btn {
+    background-color: transparent;
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    padding: 14px 28px;
+    font-size: 16px;
+}
+
+.big-btn {
+    padding: 16px 32px;
+    font-size: 18px;
+}
+
+.arrow-img {
+    width: 20px;
+    height: 20px;
+    filter: brightness(0) invert(1);
+}
+
+.arrow-icon {
+    margin-left: 8px;
+    font-size: 18px;
+}
+
+.arrow-icon img {
+    width: 20px;
+    height: 20px;
+    filter: brightness(0) invert(1);
+}
+
+
+/* header and navbar */
+.top-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.navigation {
+    background-color: #ffffff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.nav-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 24px;
+}
+
+.brand-logo img {
+    height: 48px;
+}
+
+.menu-links {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.menu-links a {
+    color: #1e3a5a;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.menu-links a:hover {
+    color: #4CAF50;
+}
