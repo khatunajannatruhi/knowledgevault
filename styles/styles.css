@@ -293,3 +293,85 @@ ul {
     color: #6b7c8f;
     line-height: 1.6;
 }
+
+/* secondbrain section */
+.solution-area {
+    padding: 100px 0;
+    background-color: #f8f9fa;
+}
+
+.flex-row {
+    display: flex;
+    gap: 64px;
+    align-items: center;
+}
+
+.left-side {
+    flex: 1;
+}
+
+.brain-img {
+    max-width: 100%;
+    height: auto;
+}
+
+.right-side {
+    flex: 1;
+}
+
+.small-label {
+    display: inline-block;
+    color: #4CAF50;
+    font-weight: 600;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 16px;
+}
+
+.right-side .big-title {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.desc-text {
+    color: #6b7c8f;
+    font-size: 18px;
+    line-height: 1.7;
+    margin-bottom: 32px;
+}
+
+.check-list {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.check-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+}
+
+.check-circle {
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #4CAF50;
+    border-radius: 50%;
+    padding: 4px;
+}
+
+.check-circle img {
+    width: 16px;
+    height: 16px;
+    filter: brightness(0) invert(1);
+}
+
+.check-item span:last-child {
+    color: #1e3a5a;
+    font-size: 16px;
+}
